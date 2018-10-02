@@ -16,7 +16,7 @@
        specific language governing permissions and limitations
        under the License.
  */
-ext.postBuildExtras = {
+ext.cdvPluginPostBuildExtras << {
     def inAssetsDir = file("assets")
     def outAssetsDir = inAssetsDir
     def outFile = new File(outAssetsDir, "cdvasset.manifest")
